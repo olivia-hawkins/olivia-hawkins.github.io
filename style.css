@@ -20,22 +20,19 @@
   button {
     flex: 1;
     width: 100%;
-    font-size: 24px;
-    color: #333;
+    /* 画面高さの1/3の50%ぐらい = ボタン内で目立つサイズ */
+    font-size: calc(100vh / 3 * 0.5);
+    color: #e91e63; /* 濃いピンク（文字色） */
     background-color: #ffe6f0;
     border: 2px solid #e91e63;
-    transition: 
-      background-color 0.3s ease,
-      box-shadow 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
   
-  /* ホバー時（PC） */
   button:hover {
     background-color: #ffc1dc;
     box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
   }
   
-  /* タッチ時 or クリック中 */
   button.pressed,
   button:active {
     background-color: #ffc1dc;
