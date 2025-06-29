@@ -10,15 +10,19 @@
 
 <body>
 	<div id="header">
-<!--		<a href="player_intiface.html">Intiface接続版</a> -->
+<!--@K
+		<a href="player_intiface.html">Intiface接続版</a>
+-->
+<!--@K
 		<a href="https://github.com/scry1-csv/WebSexToysPlayer">GitHub</a>
+-->
 		<a target="_blank" href="README_ja.html">使い方</a>
 	</div>
 	<hr />
 	<div class="ui">
 		<span id="connectStatus"></span>
 	</div>
-<!---
+<!---@K
 	<video id="player" src="" controls></video>
 	<div class="ui">
 		<input id="mediaInput" type="file" accept="video/*,audio/*" style="display: none;" />
@@ -32,6 +36,8 @@
 -->
 	<div class="ui"><button id="connectDeviceButton">デバイス接続</button></div>
 	<div class="ui"><button id="forceStopButton">強制停止</button></div>
+	<div class="ui"><button id="StartVibrationButton">振動開始</button></div>	<!--@H-->
+	<div class="ui"><button id="StopVibrationButton">振動停止</button></div>	<!--@H-->
 	<div>
 		<h3>設定</h3>
 		<ul>
@@ -64,7 +70,7 @@
 			<ul id="UFOTWDeviceList"></ul>
 		</ul>
 	</div>
-<!---
+<!---@K
 	<div>
 		<h3>読込済みスクリプト</h3>
 		<ul>
