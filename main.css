@@ -2,6 +2,7 @@ body {
     touch-action: none;  /* ズームを無効にする */
     color: #e91e63; /* 濃いピンク（文字色） */
     background-color: #ffe6f0;  /* 薄いピンク（背景） */
+    background-image: url(./k-pippi.png);
 }
 
 #player {
