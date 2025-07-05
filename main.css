@@ -2,7 +2,7 @@ body {
     touch-action: none;  /* ズームを無効にする */
     color: #e91e63; /* 濃いピンク（文字色） */
     background-color: #ffe6f0;  /* 薄いピンク（背景） */
-    background-image: url(./k-pippi.png);
+    /* background-image: url(./k-pippi.png); */
 }
 
 #player {
@@ -39,6 +39,7 @@ body {
     button:hover {
         background-color: #ffc1dc;
         box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
+        background: transparent;
     }
     
     button.pressed,
