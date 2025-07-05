@@ -32,6 +32,7 @@ body {
         background-color: #ffe6f0; /* 薄いピンク（背景） */
         border: 2px solid #e91e63; /* 濃いピンク（境界線） */
         transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        background: transparent;
     }
       
     button:hover {
