@@ -1,4 +1,7 @@
-body { background-color: #ffe6f0; }
+body {
+    touch-action: none;
+    background-color: #ffe6f0;
+}
 
 #player {
     width: 100%;
