@@ -44,6 +44,7 @@ body {
     button:active {
         background-color: #ffc1dc;
         box-shadow: none;
+        background: transparent;
     }
 }
 
