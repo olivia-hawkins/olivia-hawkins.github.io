@@ -1,5 +1,6 @@
 body {
-    touch-action: none;  /* ズームを無効にする */
+    /* touch-action: none; */  /* ズームを無効にする */
+    touch-action: pan-x, pan-y;  /* ズームを無効にし、スクロールは可能とする */
     color: #e91e63; /* 濃いピンク（文字色） */
     background-color: #ffe6f0;  /* 薄いピンク（背景） */
     /* background-image: url(./k-pippi.png); */
