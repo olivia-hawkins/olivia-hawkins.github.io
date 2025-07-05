@@ -10,3 +10,14 @@ body { background-color: white; }
 .ui {
     margin: 0.5em;
 }
+
+button:hover {
+    background-color: #ffc1dc;
+    box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
+}
+
+button.pressed,
+button:active {
+    background-color: #ffc1dc;
+    box-shadow: none;
+}
