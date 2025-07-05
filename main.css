@@ -12,8 +12,18 @@ body { background-color: white; }
         margin: 0.5em;
     }
 
+    button {
+        flex: 1;
+        width: 100%;
+        font-size: calc(100vh / 3 * 0.5);
+        color: #e91e63; /* 濃いピンク（文字色） */
+        background-color: #ffe6f0; /* 薄いピンク（背景） */
+        border: 2px solid #e91e63; /* 濃いピンク（境界線） */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+      
     button:hover {
-    background-color: #ffc1dc;
+        background-color: #ffc1dc;
         box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
     }
     
