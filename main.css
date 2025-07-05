@@ -1,5 +1,5 @@
 body {
-    touch-action: none;
+    touch-action: none;  /* ズームを無効にする */
     color: #e91e63; /* 濃いピンク（文字色） */
     background-color: #ffe6f0;  /* 薄いピンク（背景） */
 }
@@ -36,4 +36,10 @@ body {
         background-color: #ffc1dc;
         box-shadow: none;
     }
+}
+
+.strings {
+    color: #e91e63; /* 濃いピンク（文字色） */
+    background-color: #ffe6f0; /* 薄いピンク（背景） */
+    border: 2px solid #e91e63; /* 濃いピンク（境界線） */
 }
