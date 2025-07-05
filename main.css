@@ -15,7 +15,7 @@ body { background-color: #ffe6f0; }
     button {
         flex: 1;
         width: 100%;
-        font-size: calc(100vh / 3 * 0.5);
+        font-size: calc(100vh / 4 * 0.5);
         color: #e91e63; /* 濃いピンク（文字色） */
         background-color: #ffe6f0; /* 薄いピンク（背景） */
         border: 2px solid #e91e63; /* 濃いピンク（境界線） */
