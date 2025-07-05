@@ -13,7 +13,9 @@ body {
 
 .content {
     background-image: url(./k-pippi.png?dl=0);
+    background-position: center;
     background-size: cover;
+    opacity: 0.3;
 }
 
 .ui {
