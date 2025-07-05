@@ -12,7 +12,7 @@ body {
 }
 
 .content {
-    background-image: url(./k-pippi.png?dl=0);
+    background-image: url(./k-pippi.png);
     background-position: center;
     background-size: cover;
     opacity: 0.3;
