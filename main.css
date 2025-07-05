@@ -11,6 +11,7 @@ body {
     object-fit: contain;
 }
 
+/* 背景を透かす */
 .content {
     background-image: url(./k-pippi.png);
     background-position: center;
