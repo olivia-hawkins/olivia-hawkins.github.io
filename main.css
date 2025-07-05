@@ -11,6 +11,11 @@ body {
     object-fit: contain;
 }
 
+.content {
+    background-image: url(./k-pippi.png?dl=0);
+    background-size: cover;
+}
+
 .ui {
     * {
         margin: 0em;
