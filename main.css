@@ -33,14 +33,3 @@ body { background-color: #ffe6f0; }
         box-shadow: none;
     }
 }
-
-button:hover {
-    background-color: #ffc1dc;
-    box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
-}
-
-button.pressed,
-button:active {
-    background-color: #ffc1dc;
-    box-shadow: none;
-}
