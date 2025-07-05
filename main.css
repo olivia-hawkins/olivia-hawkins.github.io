@@ -41,5 +41,4 @@ body {
 .strings {
     color: #e91e63; /* 濃いピンク（文字色） */
     background-color: #ffe6f0; /* 薄いピンク（背景） */
-    border: 2px solid #e91e63; /* 濃いピンク（境界線） */
 }
