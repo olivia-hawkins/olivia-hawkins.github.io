@@ -3,8 +3,8 @@
 
 <head>
 	<link rel="stylesheet" href="main.css">
-
-	<!-- アイコン設定 -->
+	
+	<!-- ファビコン設定 -->
 	<link rel="shortcut icon" href="k-pippi.png">
 	<link rel="icon" href="k-pippi.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="k-pippi.png">
@@ -15,31 +15,9 @@
 
 <body>
 	<div id="header">
-<!--@K
-		<a href="player_intiface.html">Intiface接続版</a>
--->
-<!--@K
-		<a href="https://github.com/scry1-csv/WebSexToysPlayer">GitHub</a>
-
-		Ver.0.01
-		<br>
-
-		<a target="_blank" href="README_ja.html">使い方</a>
--->
 	</div>
 	<hr />
-<!--@K
-	<video id="player" src="" controls></video>
-	<div class="ui">
-		<input id="mediaInput" type="file" accept="video/*,audio/*" style="display: none;" />
-		<button id="mediaButton" type="button">動画や音声を選択</button>
-		<span id="mediaNameSpan"></span>
-	</div>
-	<div class="ui">
-		<input id="scriptInput" type="file" accept="text/csv,.funscript" style="display: none;" />
-		<button id="scriptButton" type="button">スクリプトを選択</button>
-	</div>
--->
+
 	<!-- ボタンを透明にし、背景を透過させる -->
 	<div class="content">
 		<div class="ui"><button id="connectDeviceButton">接続</button></div>
@@ -47,26 +25,6 @@
 		<div class="ui"><button id="upViberationButton">＋</button></div>	<!--@H-->
 		<div class="ui"><button id="downViberationButton">ー</button></div>	<!--@H-->
 	</div>
-<!--@K
-	<div>
-		<h3>設定</h3>
-		<ul>
-			<li>
-				オフセット:<input id="offset" type="number" style="width:4em;" value="0" step="0.1" />秒
-				<button id="offsetPlusButton" type="button">+</button>
-				<button id="offsetMinusButton" type="button">-</button>
-			</li>
-			<li class="UFOTWsettingli" style="display: none;">
-				<input id="UFOTWreverseLRCheckbox" type="checkbox" />
-				<label for="UFOTWreverseLRCheckbox">UFOTW左右反転</label>
-			</li>
-			<li class="UFOTWsettingli" style="display: none;">
-				<input id="VorzeSAScriptToUFOTWCheckbox" type="checkbox" />
-				<label for="VorzeSAScriptToUFOTWCheckbox">UFOSA用のスクリプトでUFOTWを動かす</label>
-			</li>
-		</ul>
-	</div>
--->
 
 	<div class="ui">
 		<span id="connectStatus"></span>
@@ -90,24 +48,9 @@
 	
 		<hr />
 
-		<h3>けーぴっぴ Ver.0.01</h3>
+		<h3>けーぴっぴ Ver.0.00</h3>
 	</div>
 
-<!--@K
-	<div>
-		<h3>読込済みスクリプト</h3>
-		<ul>
-			<li>タイムローター用</li>
-			<ul id="TimeRoterScriptList"></ul>
-			<li>UFOSA・サイクロンSA用</li>
-			<ul id="VorzeSAScriptList"></ul>
-			<li>funscript</li>
-			<ul id="FunscriptList"></ul>
-			<li>UFOTW用</li>
-			<ul id="UFOTWScriptList"></ul>
-		</ul>
-	</div>
--->
 	<script type="importmap">
 		{
 		  "imports": {
