@@ -14,14 +14,14 @@ body {
 }
 
 /* 背景を透かす */
-.content {
+_::-webkit-full-page-media, _:future, :root .content {
     background-image: url(./k-pippi.png);
     background-position: center;
     background-size: cover;
     opacity: 1.0;
 }
 
-.ui {
+_::-webkit-full-page-media, _:future, :root .ui {
     * {
         margin: 0em;
     }
@@ -51,7 +51,7 @@ body {
     }
 }
 
-.strings {
+_::-webkit-full-page-media, _:future, :root .strings {
     color: gray; /* 濃いピンク（文字色） */
     background-color: #ffe6f0; /* 薄いピンク（背景） */
 }
