@@ -13,62 +13,15 @@ body {
     object-fit: contain;
 }
 
-/* for chrome */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* 背景を透かす */
-    .content {
-        background-image: url(./k-pippi.png);
-        background-position: center;
-        background-size: cover;
-        opacity: 1.0;
-    }
-
-    .ui {
-        * {
-            margin: 0em;
-        }
-
-        button {
-            flex: 1;
-            width: 100%;
-            font-size: calc(100vh / 4 * 0.5);
-            color: #e91e63; /* 濃いピンク（文字色） */
-            background-color: #ffe6f0; /* 薄いピンク（背景） */
-            border: 2px solid #e91e63; /* 濃いピンク（境界線） */
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            background: transparent;
-        }
-      
-        button:hover {
-            background-color: #ffc1dc;
-            box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
-            background: transparent;
-        }
-    
-        button.pressed,
-        button:active {
-            background-color: #ffc1dc;
-            box-shadow: none;
-            background: transparent;
-        }
-    }
-
-    .strings {
-        color: gray; /* 濃いピンク（文字色） */
-        background-color: #ffe6f0; /* 薄いピンク（背景） */
-    }
-}
-
-/* 背景を透かす for safari */
-_::-webkit-full-page-media, _:future, :root .content {
+/* 背景を透かす */
+.content {
     background-image: url(./k-pippi.png);
     background-position: center;
     background-size: cover;
     opacity: 1.0;
 }
 
-/* UI for safari */
-_::-webkit-full-page-media, _:future, :root .ui {
+.ui {
     * {
         margin: 0em;
     }
@@ -98,8 +51,7 @@ _::-webkit-full-page-media, _:future, :root .ui {
     }
 }
 
-/* string for safari */
-_::-webkit-full-page-media, _:future, :root .strings {
+.strings {
     color: gray; /* 濃いピンク（文字色） */
     background-color: #ffe6f0; /* 薄いピンク（背景） */
 }
